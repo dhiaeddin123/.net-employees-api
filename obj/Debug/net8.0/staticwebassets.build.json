@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Rns4SA7olpp9jLw49kXfV7wfICeEcbcXbILhEm5NpVI=",
+  "Source": "blockchain-api",
+  "BasePath": "_content/blockchain-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  api:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+    volumes:
+      - ./Data:/app/Data
+    depends_on:
+      - sqlite
+
+  sqlite:
+    image: nouchka/sqlite3:latest
+    volumes:
+      - ./Data:/data
+    restart: always
