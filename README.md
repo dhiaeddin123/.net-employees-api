@@ -38,11 +38,13 @@ cd .net-employees-api
 
 2. Run with docker :
 
+```bash
 docker build -t .net-employees-api .
 docker run -p 5000:8080 .net-employees-api
 
 3. Access the API:
 
+```bash
 Swagger UI: http://localhost:5000/swagger
 
 API Base URL: http://localhost:5000/api
