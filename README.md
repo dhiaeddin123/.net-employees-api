@@ -32,6 +32,7 @@ This project is a simple **Leave Request Management System** built with **ASP.NE
 
 1. Clone the repository:
 
+```bash
 git clone https://github.com/dhiaeddin123/.net-employees-api.git
 cd .net-employees-api
 
